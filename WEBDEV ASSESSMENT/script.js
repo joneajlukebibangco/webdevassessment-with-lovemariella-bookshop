@@ -75,7 +75,7 @@ function addToCart (book_array) {
         element.appendChild(section);
 }
 
-fetch('http://127.0.0.1:5500/books.json')
+fetch('https://joneajlukebibangco.github.io/webdevassessment-with-lovemariella-bookshop/books.json')
      .then(response => response.json())
      .then(data => {
           books.push(...data.books);
